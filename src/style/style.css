@@ -1,5 +1,5 @@
 
-.background {
+.background-color {
     background-color: #c9cecf;
     border: 0;
     padding: 0;
@@ -30,6 +30,7 @@
 }
 
 .bar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     background-color: #15b053;
     border-top: 10px;
@@ -75,13 +76,43 @@
     margin-left: 2.5px;
 }
 
-#footer{
+#footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.fa-twitter {
+.social-media {
+    display: flex;  
+}
+
+.img-sm {
+    width: 50px;
+    margin: 20px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.img-ci {
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.rights {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 35px;
+    
+
+}
+
+
+
+/* .fa-twitter {
 padding: 15px;
 width: 30px;
 height: 30px;
@@ -129,4 +160,4 @@ left: 10px;
     position: absolute;
     bottom: 4px;
     right: 10px;
-}
+} */
