@@ -7,6 +7,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
 }
 
 .header {
@@ -82,6 +84,14 @@
     box-sizing: border-box;
 }
 
+.button:hover {
+    background-color: #c9cecf;
+}
+
+.button:active {
+    color: #15b053;
+}
+
 .home-icon {
     height: 80%;
     margin: 3px;
@@ -101,6 +111,10 @@
     margin-left: 2.5px;
     padding: 5px;
     box-sizing: border-box;
+}
+
+.home-button:hover {
+    background-color: #c9cecf;
 }
 
 .social-media {
@@ -171,3 +185,68 @@
             box-sizing: border-box;
         }
 }
+
+/* blog page styling */
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .row {
+      display: flex;
+}
+  .leftcolumn {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 75%;
+      box-sizing: border-box;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+      display: flex;
+      flex-wrap: wrap;
+      /* float: left; */
+      width: 25%;
+      padding-left: 20px;
+      box-sizing: border-box;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #15b053;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .side-card {
+    display: flex;
+    justify-content: center;
+    background-color: #15b053;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1000px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
