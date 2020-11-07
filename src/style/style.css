@@ -150,6 +150,8 @@
     text-align: center;
 }
 
+/* media breakpoint for the headline and the navbar */
+
 @media screen and (min-width: 1000px) {
     .header {
         display: flex;
@@ -186,10 +188,8 @@
         }
 }
 
-/* blog page styling */
-  
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
+/* blog/projects page styling */
+
   .row {
       display: flex;
       flex-direction: column;
@@ -229,7 +229,7 @@
     margin: 5px;
 }
 
- /* Fake image */
+ /* blog image */
  .blog-img {
     display: flex;
     flex-direction: column;
@@ -301,13 +301,77 @@
     }
 
     .contact-card {
-        width: 24.5%;
+        width: 24.7%;
         position: absolute;
         top: 615px;
-        right: 8px;
+        right: 7px;
         border: solid #000000 2px;
         box-sizing: border-box;
         background-color: white;
     }
-    
 }
+
+/* contact page styling */
+
+input[type=text], select, textarea {
+    width: 99%;
+    padding: 12px;
+    border: 1px solid #15b053;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin: 3px;
+    background-color: #15b053;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    color: #000000;
+  }
+  
+  label {
+    padding: 2px;
+    display: inline-block;
+    margin: 3px;
+  }
+  
+  .conntact-form {
+    border-radius: 5px;
+    background-color: #15b053;
+    padding: 20px;
+  }
+  
+  .label {
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .placeholder {
+    width: 100%;
+    margin-top: 6px;
+    
+  }
+  
+  /* clearing the floats after the column */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* media breakpoint for the contact page */
+  @media screen and (min-width: 1000px) {
+    .label, .placeholder {
+      width: 75%;
+      margin-top: 0;
+    }
+
+    #contact-info-page {
+        border: 2px solid #15b053;
+        width: 20%;
+        position: absolute;
+        right:10px;
+        top: 230px
+
+
+    }
+  }
