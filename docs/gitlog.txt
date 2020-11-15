@@ -1,3 +1,9 @@
+commit 9a08b0c3c5a5fa6354ffac93a8a7189b391e7528
+Author: ibsio <ibsiology@gmail.com>
+Date:   Sun Nov 15 16:44:41 2020 +1000
+
+    edited the reedme file, added the log text file
+
 commit 91d642498a030b860978cee0c1afe4b04819e4ab
 Author: ibsio <ibsiology@gmail.com>
 Date:   Sun Nov 15 00:03:00 2020 +1000
