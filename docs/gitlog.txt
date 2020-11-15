@@ -1,0 +1,71 @@
+commit 91d642498a030b860978cee0c1afe4b04819e4ab
+Author: ibsio <ibsiology@gmail.com>
+Date:   Sun Nov 15 00:03:00 2020 +1000
+
+    updated some html elements and added the SRI also worked on documentation
+
+commit 84b6f9e708a4eff5aa0084f66fffe61a9fcad21b
+Author: ibsio <ibsiology@gmail.com>
+Date:   Fri Nov 13 15:43:55 2020 +1000
+
+    enhanced css style and updated site map and contact page
+
+commit 653dec4a373b672f42c3b92c927301ab20e21702
+Author: ibsio <ibsiology@gmail.com>
+Date:   Thu Nov 12 13:27:14 2020 +1000
+
+    validated all html and css codes and enhanced some issues related to the responsivness
+
+commit 997d1b2357ed381a3b7b83a0f7a363f8d61c94c7
+Author: ibsio <ibsiology@gmail.com>
+Date:   Wed Nov 11 16:48:50 2020 +1000
+
+    workd on work history page and added resume with download function
+
+commit ef1f09a7a01e73204fe7049c688fd9f2af3a4091
+Author: ibsio <ibsiology@gmail.com>
+Date:   Mon Nov 9 21:20:25 2020 +1000
+
+    added html code for bio and work history pages and enhanced the css stylsheet
+
+commit 296f87b4412593e46d2979796c5aa42c93e73e18
+Author: ibsio <ibsiology@gmail.com>
+Date:   Sun Nov 8 01:24:37 2020 +1000
+
+    about done with the html code for the contact page and the styling
+
+commit a44e532f79bcdbefd876cd79921db8dffa02404b
+Author: ibsio <ibsiology@gmail.com>
+Date:   Sat Nov 7 22:01:03 2020 +1000
+
+    finalized blog page and worked on styling
+
+commit e64fb13dc3dbcc51a78c255622145fff6d1e92c0
+Author: ibsio <ibsiology@gmail.com>
+Date:   Fri Nov 6 16:43:27 2020 +1000
+
+    draft design for the blog page
+
+commit e20d340355a54525067062d0e1c44f9084acd205
+Author: ibsio <ibsiology@gmail.com>
+Date:   Fri Nov 6 13:51:36 2020 +1000
+
+    finalised the styling of the home page and the html code
+
+commit 43088599c4678d199a700dc512b5141c157cd547
+Author: ibsio <ibsiology@gmail.com>
+Date:   Fri Nov 6 11:37:23 2020 +1000
+
+    fixed home button and enhanced home page styling
+
+commit 85a8ae1cb5009da12f9d3d4f0eea9ada90c647f7
+Author: ibsio <ibsiology@gmail.com>
+Date:   Thu Nov 5 16:26:22 2020 +1000
+
+    90% of the template is done and added some media files
+
+commit c45c014bd765c18dcd9302160d8ea5f6289dc17c
+Author: ibsio <ibsiology@gmail.com>
+Date:   Thu Nov 5 09:16:00 2020 +1000
+
+    created all needed files and folders, also worked on the html and css of the home page
